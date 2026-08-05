@@ -499,7 +499,8 @@ input {
   font-size: 15px;
   /* align-items: center; */
   /* text-align: center; */
-  /* padding-bottom: 10; */
+  /* padding-bottom: 20; */
+  margin-bottom:20px;
 }
 .content {
   text-align: center;
@@ -580,7 +581,7 @@ input {
   color: goldenrod;
   font-size: 80px;
   text-align: center;
-  font-weight: 50;
+  font-weight: 30;
 }
 
 .experience {
@@ -761,12 +762,6 @@ button:hover {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .virtual-tour {
   width: 100%;
   padding: 70px 0;
@@ -831,6 +826,8 @@ button:hover {
 }
 
 .award-card {
+  display:flex;
+  justify-content:space-between;
   flex: 1;
   min-width: 220px;
 }
@@ -858,6 +855,7 @@ button:hover {
   font-size: 24px;
   color: #444;
   line-height: 1.8;
+  padding:10px;
 }
 
 .btn {
@@ -868,6 +866,7 @@ button:hover {
   text-decoration: none;
   font-size: 18px;
   transition: 0.3s;
+  margin:10px;
 }
 
 .btn:hover {
