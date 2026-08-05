@@ -820,6 +820,7 @@ button:hover {
 
 .awards-container {
   display: flex;
+  /* flex-direction:; */
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
@@ -828,7 +829,7 @@ button:hover {
 .award-card {
   /* display:flex; */
   /* justify-content:space-between; */
-  /* flex-direction:column; */
+  /* flex-direction:row; */
   flex: 1;
   min-width: 220px;
 }
