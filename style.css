@@ -826,9 +826,9 @@ button:hover {
 }
 
 .award-card {
-  display:flex;
+  /* display:flex; */
   /* justify-content:space-between; */
-  flex-direction:column;
+  /* flex-direction:column; */
   flex: 1;
   min-width: 220px;
 }
